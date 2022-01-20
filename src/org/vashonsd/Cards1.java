@@ -1,0 +1,116 @@
+package org.vashonsd;
+
+public enum Cards1 {
+    infernoDragon(false,false),
+    sparky(false,false),
+    lavaHound(false,false),
+    royalGhost(false,false),
+    bats(false,false),
+    zap(false,false),
+    iceGolem(false,false),
+    bomber(false,false),
+    minions(false,false),
+    balloon(false,false),
+    megaMinion(false,false),
+    elixirgolem(false,false),
+    mortar(false,false),
+    skeletonDragons(false,false),
+    goblinCage(false,false),
+    zappies(false,false),
+    freeze(false,false),
+    minionHorde(false,false),
+    giant(false,false),
+    bombTower(false,false),
+    bowler(false,false),
+    royalGiant(false,false),
+    elixircollector(false,false),
+    giantSkeleton(false,false),
+    pekka(false,false),
+    golem(false,false),
+
+    princess(false,true),
+    electroWizard(false,true),
+    fisherman(false,true),
+    healSpirit(false,true),
+    giantSnowball(false,true),
+    cannon (false,true),
+    arrows(false,true),
+    tombstone(false,true),
+    tornado(false,true),
+    tesla(false,true),
+    flyingMachine(false,true),
+    miniPekka(false,true),
+    battlehealer(false,true),
+    babyDragon(false,true),
+    hunter(false,true),
+    rascals(false,true),
+    infernoTower(false,true),
+    witch(false,true),
+    executioner(false,true),
+    electroDragon(false,true),
+    goblinGiant(false,true),
+    royalRecruits(false,true),
+
+    nightWitch(true,false),
+    graveyard(true,false),
+    megaKnight(true,false),
+    magicalArcher(true,false),
+    skeletons(true,false),
+    spearGoblins(true,false),
+    archers(true,false),
+    firecracker(true,false),
+    guards(true,false),
+    skeletonArmy(true,false),
+    wallBreakers(true,false),
+    cloneSpell (true,false),
+    battleRam(true,false),
+    valkyrie(true,false),
+    musketeer(true,false),
+    furnace(true,false),
+    fireball(true,false),
+    darkPrince(true,false),
+    royalHogs(true,false),
+    rocket(true,false),
+    lightning(true,false),
+    threeMusketeers(true,false),
+
+    theLog(true,true),
+    iceWizard(true,true),
+    bandit(true,true),
+    lumberjack(true,true),
+    ramRider(true,true),
+    iceSpirit(true,true),
+    goblins(true,true),
+    fireSpirits(true,true),
+    rage(true,true),
+    barbarianBarrel(true,true),
+    knight(true,true),
+    goblinGang(true,true),
+    earthquake(true,true),
+    dartGoblin(true,true),
+    goblinBarrel(true,true),
+    hogRider(true,true),
+    poison(true,true),
+    barbarians(true,true),
+    wizard(true,true),
+    goblinHut(true,true),
+    prince(true,true),
+    cannonCart(true,true),
+    eliteBarbarians(true,true),
+    xBow(true,true),
+    barbarianHut(true,true),;
+
+    final boolean firstQuestion;
+
+    Cards1 (boolean firstQuestion, boolean secondQuestion){
+
+        this.firstQuestion = firstQuestion;
+
+    }
+}
+
+//are you athletic
+//are you a morning persona
+
+
+
